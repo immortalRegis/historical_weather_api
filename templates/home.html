@@ -6,8 +6,15 @@
 </head>
 <body>
     <h1>Translator API</h1>
-    <p1> URL format: https://api/v1/word </p1>
+    <p1> URL format: http://127.0.0.1:5000/api/v1/station/date </p1>
     <br>
-    <p1>Example: https://api/v1/word</p1>
+    <p1>Format to get temperature for a given station on a specific date : http://127.0.0.1:5000/api/v1/10/1868-01-25</p1>
+    <br>
+    <p1>Format to get all historical data for a given station: http://127.0.0.1:5000/api/v1/10 </p1>
+    <br>
+    <p1>Format to get data from a specific year for a given station: http://127.0.0.1:5000/api/v2/10/1860 </p1>
+    <br>
+    <p1>See list of stations in table below</p1>
+    <p>{{data|safe}}</p>
 </body>
 </html>
